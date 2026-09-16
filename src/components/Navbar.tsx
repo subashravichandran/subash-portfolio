@@ -50,6 +50,13 @@ const Navbar = () => {
             </a>
 
             <a
+              href="#open-source"
+              className="transition hover:text-white"
+            >
+              Open Source
+            </a>
+
+            <a
               href="#contact"
               className="rounded-lg bg-blue-500 px-4 py-2 font-medium text-white transition hover:bg-blue-400"
             >
@@ -102,6 +109,14 @@ const Navbar = () => {
                 className="rounded-lg px-3 py-3 text-slate-300 hover:bg-slate-800 hover:text-white"
               >
                 Projects
+              </a>
+              
+              <a
+                href="#open-source"
+                onClick={closeMenu}
+                className="rounded-lg px-3 py-3 text-slate-300 hover:bg-slate-800 hover:text-white"
+              >
+                Open Source
               </a>
 
               <a

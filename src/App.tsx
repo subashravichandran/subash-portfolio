@@ -7,6 +7,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Engineering from './components/Engineering'
+import OpenSource from './components/OpenSource'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Skills />
         <Engineering />
         <Projects />
+        <OpenSource />
         <Contact />
       </main>
 
